@@ -1,0 +1,36 @@
+reflection:
+
+
+Activity selection problem.
+
+
+> shared resource : time
+> objects compete to charge the shared resource.
+
+> can't share at the same time. <-- constraint
+> how to choose or charge.
+
+> resource is valuable so i want to utilize it maximumly.
+
+
+> system or human system want to assign task..
+  > the measurable point only numbers of task..
+
+> but in this case, the some object or task starve..
+  if it was very important object, this is issue.
+
+--------------------------------------------------
+> so let's give the weight or value of the object or priorities..
+
+
+> normally, i might choose the hightest order value of objects..
+> this is right? or not?
+
+
+
+
+
+
+
+
+        
