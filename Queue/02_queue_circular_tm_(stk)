@@ -1,0 +1,48 @@
+ide from article)
+ > manage front and rear idx and use circular cue.  <-- (good)
+
+
+
+(stk1) how to make cicular?
+ > feature wik 
+   > spe) if add one obj. => rear idx++ and apply mod
+     spe) if pop on obj => pop and front idx++
+   >  0 1 2 3 4
+     [1 2 3 # #]
+
+     front_idx=0           <-- only increase feature when pop obj
+     rear_idx=2       <-- only increase feature when add obj
+     
+     [1 2 3 4 5]
+     front_idx=0
+     rear_idx=4
+      count = rear - front +1
+
+     [    3 4 5]
+      front_idx = 2
+       rear_idx = 4
+
+      0 1 2 3 4    
+     [6 7 3 4 5]
+      front_idx = 2
+      rear_idx = 1              <---wik) check 2 case
+                                        front < rear
+                                        rear < front
+
+
+     front < rear
+        1) length    : rear-front + 1
+        2) overflow  : front+1 == rear
+        3) add       : rear++ % n, rear = obj.
+        4) pop       : pop front, front++ % n
+
+     rear  < front
+        1) length   : n-front +  rear+1
+        2) overflow : rear+1 == front
+        3) add      : rear++ % n, rear = obj
+        4) pop      : pop front, front++ % n
+
+
+
+    
+  
