@@ -1,0 +1,20 @@
+queue
+ : object process by ordered. (if needed ordered process)
+   what'is application? In real world, bank process and in mart, calculating 
+
+procss, etc,,,
+ : imple by array.
+
+   array(size N) ex) n=5
+
+   input object, [] <- {1, 2, 3}
+                 [1, 2, 3]
+   output        1 [2, 3]   <--(me) cons: the moving the item process needed.
+ : 
+
+   anyway) lets' imple.
+
+-----
+
+ide from article)
+ > manage front and rear idx and use circular cue.  <-- (good)
