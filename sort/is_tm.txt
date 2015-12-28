@@ -1,0 +1,33 @@
+firstly, i learn the concept of the insert sort by mit 6.009?
+
+pat...
+frequently mentioned. 
+so i need to under it for base level 
+
+is
+
+
+
+one element is orderd..
+
+so loop from the i=1~i=n (0 base)
+
+
+
+1. in arr, loop i=1~n,
+    key = arr[i]
+
+    j=i-1
+
+    loop(j>=0 && arr[j] > key)
+       arr[j+1] = arr[j]
+       j = j-1
+
+
+    
+
+(spe)
+5 1 7 3 9
+
+: 5 5 7 3 9 
+
